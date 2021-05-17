@@ -4,7 +4,7 @@ const employee = {name: 'Sam', address: '295 Bainbridge street'}
 
 function updateEmployeeWithKeyAndValue(object, key, value) {
     const newEmployee = {...employee};
-   newEmployee[address] = '11 Broadway'
+   newEmployee[key] = '11 Broadway'
         return newEmployee;
 }
  
